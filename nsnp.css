@@ -24,6 +24,17 @@ section p:nth-child(3) {
 @media only screen and (orientation:landscape) {
     section {
         background-image: linear-gradient(to right, red, yellow, green);
+        color: black;
+    }
+    section p:nth-child(1)::after {
+            content:'i am not so normal now, am i!';
+            float:right;
+            background-color: yellow;
+            width: 150px;
+            height: 50px;
+            padding: 25px;
+            color: black;
+            border-radius: 10px;
     }
     section p:nth-child(2) {
         visibility: hidden;
