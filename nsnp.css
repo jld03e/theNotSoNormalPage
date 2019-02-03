@@ -1,22 +1,22 @@
 section {
-    padding: 100px;
     background-color: black;
     color: white;
+    padding: 100px;
 }
 
-.hidden {
+section p:nth-child(2) {
     visibility: hidden;
 }
 
-.hider {
+section p:nth-child(3) {
     visibility: hidden;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 425px) {
     section {
         background-color: red;
     }
-    .hidden {
+    section p:nth-child(2) {
         visibility: visible;
     }
 }
