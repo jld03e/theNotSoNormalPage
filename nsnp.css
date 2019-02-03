@@ -20,3 +20,15 @@ section p:nth-child(3) {
         visibility: visible;
     }
 }
+
+@media only screen and (orientation:landscape) {
+    section {
+        background-image: linear-gradient(to right, red, yellow, green);
+    }
+    section p:nth-child(2) {
+        visibility: hidden;
+    }
+    section p:nth-child(3) {
+        visibility: visible;
+    }
+}
