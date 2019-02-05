@@ -1,15 +1,15 @@
 # theNotSoNormalPage
 Crazy page provoked by viewpoints and orientations using HTML and CSS only
 
-##About
+## About
 
 This exercise is based on creating odd behaviors that occur when using a mobile device and I created those odd behaviors using only html and css.
 
-##Demo
+## Demo
 
 [Click here for a demo of the page.](https://jld03e.github.io/theNotSoNormalPage/nsnp.html)
 
-#Resources
+# Resources
 
 [Selecting tags in an html body without an identifying class](https://css-tricks.com/almanac/selectors/n/nth-child/)
 
