@@ -30,6 +30,7 @@ section p:nth-child(3) {
     
     section::before {
             content:'i am not so normal now, am i!';
+            box-shadow: 10px 10px;
             float: right;
             background-color: yellow;
             width: 200px;
